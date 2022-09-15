@@ -5,9 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BatailleNavaleWPF"
         mc:Ignorable="d"
-        Title="Bataille Navale" Height="450" Width="800">
+        Title="Bataille Navale WPF" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="GrilleTB" HorizontalAlignment="Left" Height="339" Margin="76,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="450" FontFamily="Courier New"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
     </Grid>
 </Window>
